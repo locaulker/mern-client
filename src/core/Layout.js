@@ -20,6 +20,7 @@ const Layout = ({ children }) => {
     <Fragment>
       {nav()}
       <div className='container'>{children}</div>
+      <hr style={{ marginTop: '4rem' }} />
       <footer>This is the footer</footer>
     </Fragment>
   )
